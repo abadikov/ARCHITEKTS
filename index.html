@@ -1,0 +1,118 @@
+
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARCHITEKTS (4X) - AI АВТОМАТИЗАЦИЯ</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">ARCHITEKTS (4X)</div>
+                <ul class="nav-links">
+                    <li><a href="#mission">МАНИФЕСТ</a></li>
+                    <li><a href="#team">КОМАНДА</a></li>
+                    <li><a href="#services">СТЕК</a></li>
+                    <li><a href="#contact" class="cta-link">КОНТАКТ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="container hero-content">
+                <h1 class="hero-title">МЫ НЕ ПИШЕМ КОД. МЫ ПИШЕМ БУДУЩЕЕ.</h1>
+                <p class="hero-subtitle">ARCHITEKTS (4X). AI АВТОМАТИЗАЦИЯ БЕЗ ОГРАНИЧЕНИЙ СЛОЖНОСТИ.</p>
+                <a href="#contact" class="cta-button"> > ЗАПУСТИТЬ ТРАНСФОРМАЦИЮ </a>
+                <div class="hero-divider"></div>
+            </div>
+        </section>
+
+        <section id="mission" class="mission section-padding">
+            <div class="container">
+                <h2 class="section-title">> МАНИФЕСТ 404: ПЕРЕОСМЫСЛЕНИЕ</h2>
+                <p>Мы — не команда. Мы — распределенная нейронная сеть экспертов. Александр Б, Александр С, Игорь Д, Дмитрий Л. Четыре узла, объединенных одной целью: создание AI-решений, которые ломают парадигмы. Мы беремся за задачи, где остальные ставят статус: "Невозможно". Компьютерное зрение, LLM-архитектура, сложные интеграции данных — наш базовый уровень.</p>
+            </div>
+        </section>
+
+        <section id="team" class="team section-padding">
+            <div class="container">
+                <h2 class="section-title">> КОМАНДА: 4 УЗЛА СЕТИ</h2>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <img src="images/alex_badikov.jpg" alt="Фото Александра Бадикова" class="team-photo">
+                        <h3>Александр Бадиков</h3>
+                        <p class="role">[CORE_LLM_ARCHITECT]</p>
+                        <p>Разработка и тонкая настройка Больших Языковых Моделей для корпоративного сегмента. Эффективность, снижение стоимости inference.</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="images/alex_seleznev.jpg" alt="Фото Александра Селезнева" class="team-photo">
+                        <h3>Александр Селезнев</h3>
+                        <p class="role">[COMPUTER_VISION_ENGINEER]</p>
+                        <p>Эксперт по обработке видеопотоков, 3D-реконструкции и созданию автономных систем принятия решений.</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="images/igor_dunyashov.jpg" alt="Фото Игоря Дуняшева" class="team-photo">
+                        <h3>Игорь Дуняшев</h3>
+                        <p class="role">[ADVANCED_DEVOPS & SCALING]</p>
+                        <p>Архитектура и развертывание AI-систем в масштабе. От GPU-кластеров до edge-устройств. Гарантированная производительность.</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="images/dmitry_laptev.jpg" alt="Фото Дмитрия Лаптева" class="team-photo">
+                        <h3>Дмитрий Лаптев</h3>
+                        <p class="role">[DATA_SCIENCE & OPTIMIZATION]</p>
+                        <p>Фундаментальный анализ данных, поиск скрытых закономерностей, алгоритмическая оптимизация и повышение точности моделей.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services section-padding">
+            <div class="container">
+                <h2 class="section-title">> НАШ СТЕК. НЕТ НИЧЕГО НЕВОЗМОЖНОГО.</h2>
+                <div class="services-grid">
+                    <div class="service-block">
+                        <h3>1. CUSTOM LLM</h3>
+                        <p>Не просто API-вызовы. Мы строим приватные, дообученные LLM для ваших задач.</p>
+                    </div>
+                    <div class="service-block">
+                        <h3>2. AI VISION</h3>
+                        <p>Автоматизация контроля качества, распознавание, навигация.</p>
+                    </div>
+                    <div class="service-block">
+                        <h3>3. HYBRID INTEGRATIONS</h3>
+                        <p>Слияние моделей, данных и legacy-систем в единый, отказоустойчивый контур.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact section-padding">
+    <div class="container">
+        <h2 class="section-title">> ИНИЦИИРОВАТЬ КОНТАКТ</h2>
+        <p class="contact-pitch">Вы находитесь в точке принятия решения. Ваши проблемы — это наши алгоритмы. Отправьте запрос.</p>
+        
+        <form class="contact-form" action="https://formspree.io/f/xyzqrqje" method="POST">
+            <input type="text" placeholder="Имя / Компания" name="name" required>
+            <input type="email" placeholder="Email / Telegram" name="_replyto" required>
+            <textarea placeholder="Описание задачи..." rows="5" name="message" required></textarea>
+            <button type="submit" class="cta-button"> > ПЕРЕДАТЬ ЗАДАЧУ</button>
+        </form>
+    </div>
+</section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>ARCHITEKTS (4X) // GENERATED 2025. ALL RIGHTS RESERVED. PROTOCOL v1.0</p>
+        </div>
+    </footer>
+</body>
+</html>
